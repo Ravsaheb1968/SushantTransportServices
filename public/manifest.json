@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
+  "short_name": "Sushant Transport Services",
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "sts_favicon.webp",
+      "sizes": "128x128 64x64 48x48 32x32",
       "type": "image/x-icon"
     },
     {

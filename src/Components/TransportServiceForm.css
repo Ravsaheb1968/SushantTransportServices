@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.form-container {
+  max-width: 600px;
+  margin:20px auto;
+  background: #ffffff;
+  padding:70px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 19px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Preview Container */
+.preview-container {
+  margin-top: 10px;
+  padding: 29px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview-container h1{
+  text-align: center;
+  color: #007bff;
+  margin-bottom:5px;
+}
+.preview-container h4,address{
+  text-align: center;
+  color:black;
+  margin-bottom:5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
+
+/* Media Queries */
+
+/* Mobile (up to 600px) */
+@media (max-width: 600px) {
+  .form-container {
+    max-width: 90%;
+    padding: 23px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  table th,
+  table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+/* Tablet (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .form-container {
+    max-width: 80%;
+    padding: 27px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  table th,
+  table td {
+    font-size: 13px;
+  }
+}
+
+/* Large screens (1025px and up) */
+@media (min-width: 1025px) {
+  .form-container {
+    max-width: 600px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+  }
+}

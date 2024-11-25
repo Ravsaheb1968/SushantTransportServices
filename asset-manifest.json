@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/SushantTransportServices/static/css/main.5a0ec3e3.css",
+    "main.js": "/SushantTransportServices/static/js/main.560bcb4d.js",
+    "static/js/213.14c7db4c.chunk.js": "/SushantTransportServices/static/js/213.14c7db4c.chunk.js",
+    "static/js/732.ff59e0c7.chunk.js": "/SushantTransportServices/static/js/732.ff59e0c7.chunk.js",
+    "static/js/453.0fd3abb6.chunk.js": "/SushantTransportServices/static/js/453.0fd3abb6.chunk.js",
+    "index.html": "/SushantTransportServices/index.html",
+    "main.5a0ec3e3.css.map": "/SushantTransportServices/static/css/main.5a0ec3e3.css.map",
+    "main.560bcb4d.js.map": "/SushantTransportServices/static/js/main.560bcb4d.js.map",
+    "213.14c7db4c.chunk.js.map": "/SushantTransportServices/static/js/213.14c7db4c.chunk.js.map",
+    "732.ff59e0c7.chunk.js.map": "/SushantTransportServices/static/js/732.ff59e0c7.chunk.js.map",
+    "453.0fd3abb6.chunk.js.map": "/SushantTransportServices/static/js/453.0fd3abb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a0ec3e3.css",
+    "static/js/main.560bcb4d.js"
+  ]
+}

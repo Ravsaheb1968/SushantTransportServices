@@ -194,8 +194,8 @@ const TransportServiceForm = () => {
       {previewData && (
         <div>
           <div ref={previewRef} className="preview-container">
-            <h1>Sushant Transport Services</h1>
-            <h4>FLEET OWNERS & TRANSPORT CONTRACTORS</h4>
+            <h3>Sushant Transport Services</h3>
+            <h5>FLEET OWNERS & TRANSPORT CONTRACTORS</h5>
             <address>405,Shree Samarth HSG Soc.,Sector-22,Plot No:79,Kamothe,Navi Mumbai-410209
               <span> Mob:9323994795/9769479510 Email: sushantmule88@gmail.com</span>
             </address>

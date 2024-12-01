@@ -16,12 +16,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
 .form-group {
   margin-bottom: 15px;
 }
@@ -67,23 +61,29 @@ button:hover {
 
 /* Preview Container */
 .preview-container {
-  margin-top: 10px;
+  margin-top:10px;
   padding: 29px;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.preview-container h1{
+.preview-container h3{
   text-align: center;
   color: #007bff;
-  margin-bottom:5px;
+  margin-bottom:2px;
 }
-.preview-container h4,address{
+.form-container h5 {
+  text-align: center;
+  margin-bottom:7px;
+  color: #333;
+}
+.preview-container address{
   text-align: center;
   color:black;
   margin-bottom:5px;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -104,9 +104,53 @@ table th {
 }
 
 /* Media Queries */
+@media (max-width: 469px) {
+  .preview-container h3{
+    font-size:smaller;
+    text-align: center;
+    color: #007bff;
+    margin-bottom:4px;
+    margin-top: 3px;
+  }
+  .form-container h5 {
+    font-size:x-small;
+    text-align: center;
+    margin-bottom:5px;
+    margin-top:4px;
+    color: #333;
+  }
+  .preview-container address{
+    font-size:xx-small;
+    text-align: center;
+    color:black;
+    margin-top:4px;
+    margin-bottom:2px;
+  }
+  .form-container {
+    max-width: 90%;
+    padding: 23px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  button {
+    font-size:9px;
+    padding: 8px;
+  }
+
+  table th,
+  table td {
+    font-size:6px;
+    padding:3px;
+  }
+}
 
 /* Mobile (up to 600px) */
-@media (max-width: 600px) {
+@media (min-width: 470px) and (max-width: 600px) {
   .form-container {
     max-width: 90%;
     padding: 23px;
